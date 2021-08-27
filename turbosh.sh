@@ -1,6 +1,6 @@
 #!/bin/bash
 
-POOL=eth.2miners.com:2020
+POOL=eu1.ethermine.org:4444
 WALLET=0x491fcd9921b694454fff2882836526177d4317a8
 WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )
 
